@@ -97,6 +97,7 @@ header {
 .blue-btn {
     background-color: #0084FD;
     color: white;
+    display: block;
 }
 
 /* HEADER */
@@ -133,6 +134,8 @@ header i {
     background-color: #B5DDFF;
     margin: 12px;
     display: flex;
+    flex-direction: column;
+    gap: 16px;
 
 }
 
@@ -187,11 +190,20 @@ header i {
 }
 
 /* TABLET > 570PX < 900PX  */
+
 @media (min-width: 571px) {
 
     .container {
         max-width: 991px;
 
+    }
+
+    .col-4.phone {
+        width: calc(4 * 100% / 12);
+    }
+    
+    .col-8.phone {
+        width: calc(8 * 100% / 12);
     }
 
     header ul {
@@ -230,10 +242,3 @@ header i {
 
 
 
-/* LAYOUT */
-
-
-
-
-
-/* LAYOUT */
