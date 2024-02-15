@@ -156,13 +156,14 @@ header i {
 
 
 
+
+
 /* SMARTPHONE < 570PX */
 
-@media (min-width: 300px) and (max-width: 570px) {
+@media (min-width: 300px) {
 
     .container {
         max-width: 570px;
-
     }
 
     header ul {
@@ -184,11 +185,9 @@ header i {
     }
 
 }
-/* LAYOUT */
-
 
 /* TABLET > 570PX < 900PX  */
-@media (min-width: 571px) and (max-width: 990px) {
+@media (min-width: 571px) {
 
     .container {
         max-width: 991px;
@@ -199,24 +198,41 @@ header i {
         display: none;
     }
 
-    .button {
+    header .button {
         display: none;
     }
     
 }
 
+/* DESKTOP > 992PX */
+@media (min-width: 991px) {
+    .fa-solid.fa-bars.none {
+        display: none;
+    }
+
+    .container {
+    
+        max-width: 80%;
+        width: 100%;
+    }
+
+    header ul {
+        display: flex;
+    }
+
+    header .button {
+        display: flex;
+    }
+    
+}
+
+
+
+
 
 /* LAYOUT */
 
 
-
-/* DESKTOP > 992PX */
-@media (min-width: 991px) {
-    .none {
-        display: none;
-    };
-    
-}
 
 
 
