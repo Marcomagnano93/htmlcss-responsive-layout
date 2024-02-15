@@ -65,6 +65,40 @@ ol {
 
 
 
+/* UTILITIES */
+
+.flx {
+    display: flex;
+}
+
+
+/* STYLE */
+
+header {
+    background-color: #0084FD;
+}
+
+
+
+.button {
+    line-height: 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 2px 12px;
+    margin-left: 12px;
+    border-radius: 999px;
+
+}
+
+.white-btn {
+    background-color: white;
+}
+
+.blue-btn {
+    background-color: #0084FD;
+    color: white;
+}
+
 /* HEADER */
 
 header ul {
@@ -84,44 +118,47 @@ header i {
     font-size: 150%;
 }
 
-/* UTILITIES */
 
-.flx {
-    display: flex;
-}
+/* HERO */
 
-
-/* STYLE */
-
-header {
-    background-color: #0084FD;
-}
 
 .card {
     background-color: #B5DDFF;
-    padding: 20px;
     margin: 12px;
+    display: flex;
+    flex-direction: column;
 }
 
-.button {
-    line-height: 20px;
-    text-align: center;
-    display: inline-block;
-    padding: 2px 12px;
-    margin-left: 12px;
-    border-radius: 999px;
+.card-lrg {
+    background-color: #B5DDFF;
+    margin: 12px;
+    display: flex;
 
 }
 
-.white-btn {
-    background-color: white;
+.card__section {
+    display: flex;
+    max-width: 50%;
+    flex-wrap: wrap;
 }
+
+
+.card-img {
+    max-height: 50%;
+    align-self: flex-end;
+}
+
+
+
+
+
+
 
 
 
 /* SMARTPHONE < 570PX */
 
-@media (max-width: 570px) {
+@media (min-width: 300px) and (max-width: 570px) {
 
     .container {
         max-width: 570px;
@@ -132,16 +169,26 @@ header {
         display: none;
     }
 
-    .button {
+    header .button {
         display: none;
     }
     
+ 
+    .col-4.phone {
+        width: 100%;
+    }
+
+    .col-8.phone {
+        width: 100%;
+
+    }
+
 }
 /* LAYOUT */
 
 
 /* TABLET > 570PX < 900PX  */
-@media (max-width: 991px) {
+@media (min-width: 571px) and (max-width: 990px) {
 
     .container {
         max-width: 991px;
