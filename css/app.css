@@ -99,8 +99,15 @@ ol {
     text-align: center;
     padding: 0 50px;
     border-radius: 999px;
-   
+}
 
+.round-button {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .white-btn {
@@ -111,7 +118,10 @@ ol {
 .blue-btn {
     background-color: var(--page-blue);
     color: white;
+}
 
+.lilla-btn {
+    background-color: var(--lilla);
 }
 
 /* HEADER */
@@ -216,6 +226,14 @@ header i {
 
 .plan-card {
     background-color: white;
+    padding: 32px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 
