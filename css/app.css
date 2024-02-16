@@ -91,7 +91,9 @@ ol {
 
 /* STYLE */
 
-
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 
 .button {
@@ -218,14 +220,29 @@ header i {
 
 .strategic {
     background-color: var(--lilla);
+    margin-top: 80px;
+ 
 }
 
 .plans {
     flex-direction: column;
+    padding-bottom: var(--gutter);
+}
+
+.plan-description {
+    margin-top: 100px;
+    color: white;
+   
+}
+
+.plan-description p,
+.plan-card p {
+    line-height: 32px;
 }
 
 .plan-card {
     background-color: white;
+    color: black;
     padding: 32px;
     border-radius: 16px;
     display: flex;
@@ -234,8 +251,15 @@ header i {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 32px;
 }
 
+.plan-header {
+    margin-top: 120px;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
 
 
 /* SMARTPHONE < 570PX */
@@ -304,6 +328,10 @@ header i {
 
     .plans {
         flex-direction: row;
+    }
+
+    .plan-card {
+        margin-top: 100px;
     }
 }
 
