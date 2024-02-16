@@ -124,6 +124,7 @@ body {
 
 .lilla-btn {
     background-color: var(--lilla);
+    color: white;
 }
 
 /* HEADER */
@@ -236,7 +237,8 @@ header i {
 }
 
 .plan-description p,
-.plan-card p {
+.plan-card p,
+.card-benefit p {
     line-height: 32px;
 }
 
@@ -315,6 +317,64 @@ header i {
 .testimonial__name {
     font-size: 32px;
 }
+
+
+/* SECTION BENEFITS */
+
+.benefits {
+    background-color: var(--lilla);
+    padding-top: 32px;
+    color: white;
+}
+
+.benefits h2 {
+    text-align: center;
+    margin: 32px 0;
+    font-size: 40px;
+}
+
+.card-benefit {
+    background-color: white;
+    color: black;
+    height: 100%;
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.card-number,
+.card__title {
+    color: var(--lilla);
+}
+
+.card-number {
+    font-size: 60px;
+}
+
+.card__title {
+    font-size: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* SMARTPHONE < 570PX */
 
