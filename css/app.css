@@ -1,6 +1,7 @@
 :root {
     --page-blue: #0084FD;
     --lilla: #9792E4;
+    --gold: #FDC15F;
     --gutter: 24px;
 }
 
@@ -50,6 +51,12 @@ ol {
     padding: 0 12px;
 }
 
+.container-smaller {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
 
 .row {
 	display: flex;
@@ -86,6 +93,10 @@ ol {
 
 .flx {
     display: flex;
+}
+
+.fw-200 {
+    font-weight: 200;
 }
 
 
@@ -401,6 +412,52 @@ header i {
     left: 30%;
 }
 
+/* GET STARTED */
+
+.get__started {
+    background-color: var(--lilla);
+    padding: 32px 0;
+    color: white;
+}
+
+.get__started-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+}
+
+.get__started-box strong:last-of-type {
+    font-size: 80px;
+    color: var(--gold);
+}
+
+.get__started-box h2 {
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -529,6 +586,14 @@ header i {
 
     .profile__cit {
         flex-grow: 2;
+    }
+
+    .about-us {
+        margin: 100px 32px;
+    }
+
+    .about-us .container {
+        padding: 0 40px;
     }
 }
 
