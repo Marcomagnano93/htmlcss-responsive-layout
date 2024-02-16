@@ -398,7 +398,7 @@ header i {
     font-size: 48px;
     position: absolute;
     color: var(--lilla);
-    right: 180px;
+    left: 30%;
 }
 
 
@@ -467,6 +467,16 @@ header i {
 
     .profile {
         margin: 0;
+    }
+
+    .article-aside .profile {
+        height: 250px;
+        width: 250px;
+    }
+
+    .quotes_absolute {
+        
+        left: 60%;
     }
 }
 
