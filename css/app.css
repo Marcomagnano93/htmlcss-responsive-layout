@@ -2,6 +2,7 @@
     --page-blue: #0084FD;
     --lilla: #9792E4;
     --gold: #FDC15F;
+    --dark: #333333;
     --gutter: 24px;
 }
 
@@ -436,12 +437,35 @@ header i {
     font-size: 50px;
 }
 
+.get__started-box .button {
+    color: var(--lilla);
+    display: inline;
+}
 
 
 
 
 
+/* footer */
 
+footer {
+    background-color: var(--dark);
+    color: white;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 24px;
+}
+
+footer a {
+    color: var(--lilla);
+    text-decoration: underline;
+}
 
 
 
