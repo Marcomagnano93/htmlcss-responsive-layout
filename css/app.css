@@ -189,8 +189,20 @@ header i {
 
 }
 
+.card__body h3 {
+    color: var(--page-blue);
+}
+
+.card__body i {
+    color: var(--page-blue);
+    font-size: 50px;
+}
 
 
+.card__body .button i {
+    color: white;
+    font-size: 20px;
+}
 
 
 
