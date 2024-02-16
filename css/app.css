@@ -261,6 +261,42 @@ header i {
     font-size: 32px;
 }
 
+/* TESTIMONIAL */
+
+.testimonial__page {
+    background-color: var(--lilla);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    border-radius: 16px;
+    color: white;
+    margin: 16px 0;
+}
+
+.profile {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    object-fit: cover;
+    margin: 0 auto;
+
+}
+
+.profile__cit {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 40px;
+    gap: 16px;
+}
+
+.testimonial__name {
+    font-size: 32px;
+}
 
 /* SMARTPHONE < 570PX */
 
@@ -331,7 +367,7 @@ header i {
     }
 
     .plan-card {
-        margin-top: 100px;
+        margin-top: 200px;
     }
 }
 
