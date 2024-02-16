@@ -403,6 +403,10 @@ header i {
         width: calc(8 * 100% / 12);
     }
 
+    .col-6-md {
+        width: calc(6 * 100% / 12);
+    }
+
     .card__img img {
         margin: 0;
     }
@@ -458,6 +462,10 @@ header i {
 
     .col-6-lg {
         width: calc(6 * 100% / 12);
+    }
+
+    .col-4-lg {
+        width: calc(4 * 100% / 12);
     }
 
     .plans {
