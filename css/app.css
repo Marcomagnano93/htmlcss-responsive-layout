@@ -262,6 +262,24 @@ header i {
 }
 
 /* TESTIMONIAL */
+.testimonials {
+    margin: 50px auto;
+}
+
+.testimonials__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+  line-height: 32px;
+}
+
+.testimonials__header h3 {
+    color: var(--lilla);
+    font-size: 32px;
+}
+
 
 .testimonial__page {
     background-color: var(--lilla);
